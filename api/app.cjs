@@ -431,7 +431,7 @@ app.get('/recommender/system/:id', async (req, res) => {
       model: 'text-embedding-ada-002',
       input: text,
     });
-
+// the pipeline has been developed and waiting to be pushed .
 
     const response2 = await axios.get("http://localhost:3100/get_all_courses");
 
